@@ -1,0 +1,145 @@
+[{
+  "_id": {
+    "$oid": "63c42ebc11e06e8f4ff4f6bd"
+  },
+  "endpoint": {
+    "name": "team",
+    "url": "https://cgjresszgg.execute-api.eu-west-1.amazonaws.com/teams/{id}"
+  }
+},{
+  "_id": {
+    "$oid": "63c4308111e06e8f4ff4f6c1"
+  },
+  "endpoint": {
+    "name": "teams",
+    "url": "https://cgjresszgg.execute-api.eu-west-1.amazonaws.com/teams"
+  }
+},{
+  "_id": {
+    "$oid": "63c430a711e06e8f4ff4f6c2"
+  },
+  "endpoint": {
+    "name": "user",
+    "url": "https://cgjresszgg.execute-api.eu-west-1.amazonaws.com/users/{id}"
+  }
+},{
+  "_id": {
+    "$oid": "63c430bb11e06e8f4ff4f6c3"
+  },
+  "endpoint": {
+    "name": "users",
+    "url": "https://cgjresszgg.execute-api.eu-west-1.amazonaws.com/users"
+  }
+},{
+  "_id": {
+    "$oid": "63cc418c412a8c01790b03d7"
+  },
+  "endpoint": {
+    "name": "roleGetAll",
+    "url": "http://localhost:8090/roles/get-all"
+  }
+},{
+  "_id": {
+    "$oid": "63cc41bf412a8c01790b03d9"
+  },
+  "endpoint": {
+    "name": "roleGetByName",
+    "url": "http://localhost:8090/roles/by-name?name={name}"
+  }
+},{
+  "_id": {
+    "$oid": "63cc41f6412a8c01790b03da"
+  },
+  "endpoint": {
+    "name": "roleUpdate",
+    "url": "http://localhost:8090/roles/update-role"
+  }
+},{
+  "_id": {
+    "$oid": "63cc4219412a8c01790b03db"
+  },
+  "endpoint": {
+    "name": "roleNew",
+    "url": "http://localhost:8090/roles/new-role"
+  }
+},{
+  "_id": {
+    "$oid": "63cc467f412a8c01790b03dc"
+  },
+  "endpoint": {
+    "name": "membershipGetAll",
+    "url": "http://localhost:8090/membership/get-all"
+  }
+},{
+  "_id": {
+    "$oid": "63cc46b5412a8c01790b03dd"
+  },
+  "endpoint": {
+    "name": "membershipById",
+    "url": "http://localhost:8090/membership/by-id"
+  }
+},{
+  "_id": {
+    "$oid": "63cc46fc412a8c01790b03de"
+  },
+  "endpoint": {
+    "name": "membershipNew",
+    "url": "http://localhost:8090/membership/new-membership"
+  }
+},{
+  "_id": {
+    "$oid": "63cc4723412a8c01790b03df"
+  },
+  "endpoint": {
+    "name": "membershipUpdate",
+    "url": "http://localhost:8090/membership/update-membership"
+  }
+},{
+  "_id": {
+    "$oid": "63cc48dd412a8c01790b03e1"
+  },
+  "endpoint": {
+    "name": "roleAssociationGetAll",
+    "url": "http://localhost:8090/role-association/get-all"
+  }
+},{
+  "_id": {
+    "$oid": "63cc492b412a8c01790b03e3"
+  },
+  "endpoint": {
+    "name": "roleAssociationById",
+    "url": "http://localhost:8090/role-association/by-id"
+  }
+},{
+  "_id": {
+    "$oid": "63cc494b412a8c01790b03e4"
+  },
+  "endpoint": {
+    "name": "roleAssociationUpdate",
+    "url": "http://localhost:8090/role-association/update-role-association"
+  }
+},{
+  "_id": {
+    "$oid": "63cc497e412a8c01790b03e5"
+  },
+  "endpoint": {
+    "name": "roleAssociationNew",
+    "url": "http://localhost:8090/role-association/new-role-association"
+  }
+},{
+  "_id": {
+    "$oid": "63cc6825412a8c01790b03e9"
+  },
+  "endpoint": {
+    "name": "membershipByUserId",
+    "url": "http://localhost:8090/membership/get-userid"
+  }
+},{
+  "_id": {
+    "$oid": "63cc727c412a8c01790b03ef"
+  },
+  "endpoint": {
+    "name": "roleAssociationByUserId",
+    "url": "http://localhost:8090/role-association/by-userid"
+  }
+}]

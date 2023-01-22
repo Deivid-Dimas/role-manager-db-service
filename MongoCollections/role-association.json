@@ -1,0 +1,277 @@
+[{
+  "_id": {
+    "$oid": "63cd5975183df66d06ee76ae"
+  },
+  "userId": "fd282131-d8aa-4819-b0c8-d9e0bfb1b75c",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f",
+    "63cd441dfeba663814ffbf6d"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd59d0183df66d06ee76af"
+  },
+  "userId": "fa1529de-5f20-49a7-ad25-a494008dd322",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd5a0a183df66d06ee76b0"
+  },
+  "userId": "aa569071-6ade-4ff6-b567-6466fcbae74a",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e96183df66d06ee76b1"
+  },
+  "userId": "1b140966-5a01-49da-872e-71a769f98941",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e97183df66d06ee76b2"
+  },
+  "userId": "fddcde65-70b2-49f9-8b4d-5126adc345c1",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e97183df66d06ee76b3"
+  },
+  "userId": "fecaeebc-a7cf-4f33-8114-328566d605f6",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e98183df66d06ee76b4"
+  },
+  "userId": "d549811b-5be2-441e-8806-fcc05dc0c1d1",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e98183df66d06ee76b5"
+  },
+  "userId": "d2d82a14-f6de-4975-b84c-7d5ddd418c88",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e99183df66d06ee76b6"
+  },
+  "userId": "afdcfa58-e17a-488a-bc8c-6f379676f82b",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e9a183df66d06ee76b7"
+  },
+  "userId": "4e1e0fee-ccbc-4674-b346-4f66e2316779",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e9a183df66d06ee76b8"
+  },
+  "userId": "ed14cb36-1fae-4ed1-8037-6796e8d3e819",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e9b183df66d06ee76b9"
+  },
+  "userId": "f31ccf8d-85d1-42f1-a0c0-18c37fb73917",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e9b183df66d06ee76ba"
+  },
+  "userId": "d9b10606-7ebe-4752-83a6-119aae8780ae",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e9c183df66d06ee76bb"
+  },
+  "userId": "0dd51e80-5bf1-40fb-99d2-6c6d907dd978",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e9c183df66d06ee76bc"
+  },
+  "userId": "7822e0ab-6ac7-4826-a19b-4a646ec8463d",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e9d183df66d06ee76bd"
+  },
+  "userId": "4210423e-430e-43ec-aab6-1a554502210f",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e9d183df66d06ee76be"
+  },
+  "userId": "dde3cfab-641d-4708-af3c-cd379392253f",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e9e183df66d06ee76bf"
+  },
+  "userId": "36818d5e-b122-4231-9a3e-1215c734f028",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e9e183df66d06ee76c0"
+  },
+  "userId": "a2c06cde-9872-42be-bfaa-db53312338b4",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e9e183df66d06ee76c1"
+  },
+  "userId": "f24aaab7-ad48-494a-8ea7-0474d77ac0ae",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e9f183df66d06ee76c2"
+  },
+  "userId": "1c6d663a-6de8-454b-b4c6-ad3363870d3c",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6e9f183df66d06ee76c3"
+  },
+  "userId": "3411cdba-8667-456d-8123-4f4f51c420a7",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6ea0183df66d06ee76c4"
+  },
+  "userId": "51fb4dae-ef77-47bb-8b45-a50bff9c964c",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6ea0183df66d06ee76c5"
+  },
+  "userId": "4bfd83e1-4333-4614-a919-22ceb46f8517",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+},{
+  "_id": {
+    "$oid": "63cd6ea1183df66d06ee76c6"
+  },
+  "userId": "4509bf1f-2779-40e7-bc24-c59b560c4648",
+  "active": true,
+  "roleId": [
+    "63cd4497feba663814ffbf6e",
+    "63cb0bd880db2e670031703f"
+  ],
+  "_class": "dd.ecore.rolemanagerdb.entity.RoleAssociation"
+}]

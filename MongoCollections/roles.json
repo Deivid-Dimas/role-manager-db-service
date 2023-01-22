@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "63cb0bd880db2e670031703f"
+  },
+  "name": "Developer",
+  "description": "This role allow the user to interact with the platform, add text to the histories and make minimal changes to the user stories",
+  "_class": "dd.ecore.rolemanagerdb.entity.Role"
+},{
+  "_id": {
+    "$oid": "63cd441dfeba663814ffbf6d"
+  },
+  "name": "Product Owner",
+  "description": "This role allow the user to create new elements, change time estimations, assign and modify roles into the platform."
+},{
+  "_id": {
+    "$oid": "63cd4497feba663814ffbf6e"
+  },
+  "name": "Tester",
+  "description": "With this role, the user can create, update and erase test cases."
+},{
+  "_id": {
+    "$oid": "63cd44e1feba663814ffbf6f"
+  },
+  "name": "Administrator",
+  "description": "This role provides full control over the platform"
+}]
