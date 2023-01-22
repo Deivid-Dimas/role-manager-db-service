@@ -1,0 +1,457 @@
+{
+	"info": {
+		"_postman_id": "731c4860-4345-4040-9da6-78bcb98aa5d4",
+		"name": "Role-Management",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16146162"
+	},
+	"item": [
+		{
+			"name": "Membership",
+			"item": [
+				{
+					"name": "Membership GetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{db-service}}/membership/get-all",
+							"host": [
+								"{{db-service}}"
+							],
+							"path": [
+								"membership",
+								"get-all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Membership New",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"63cc0920e844df5c62a0e092\",\r\n    \"userId\": \"371d2ee8-cdf4-48cf-9ddb-04798b79ad9e\",\r\n    \"teamId\": \"7676a4bf-adfe-415c-941b-1739af07039b\",\r\n    \"active\" : true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{db-service}}/membership/new-membership",
+							"host": [
+								"{{db-service}}"
+							],
+							"path": [
+								"membership",
+								"new-membership"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Membership Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"63cc0920e844df5c62a0e092\",\r\n    \"userId\": \"371d2ee8-cdf4-48cf-9ddb-04798b79ad9e\",\r\n    \"teamId\": \"7676a4bf-adfe-415c-941b-1739af07039b\",\r\n    \"active\" : false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{db-service}}/membership/update-membership",
+							"host": [
+								"{{db-service}}"
+							],
+							"path": [
+								"membership",
+								"update-membership"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Membership ById",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\" :\"63cc0920e844df5c62a0e092\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{db-service}}/membership/by-id",
+							"host": [
+								"{{db-service}}"
+							],
+							"path": [
+								"membership",
+								"by-id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ByUserId",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"371d2ee8-cdf4-48cf-9ddb-04798b79ad9e\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{db-service}}/membership/get-userid",
+							"host": [
+								"{{db-service}}"
+							],
+							"path": [
+								"membership",
+								"get-userid"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Roles",
+			"item": [
+				{
+					"name": "Role GetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{db-service}}/roles/get-all",
+							"host": [
+								"{{db-service}}"
+							],
+							"path": [
+								"roles",
+								"get-all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Role NewRole",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Developer\",\r\n    \"description\" : \"This role allow the user to interact with the platform, add text to the histories and make minimal changes to the user stories\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{db-service}}/roles/new-role",
+							"host": [
+								"{{db-service}}"
+							],
+							"path": [
+								"roles",
+								"new-role"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Role UpdateRole",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"63cb0bd880db2e670031703f\",\r\n    \"name\": \"Developer\",\r\n    \"description\": \"This role allow the user to interact with the platform, add text to the histories and make minimal changes to the user stories\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{db-service}}/roles/update-role",
+							"host": [
+								"{{db-service}}"
+							],
+							"path": [
+								"roles",
+								"update-role"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Role ByName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{db-service}}/roles/by-name?name=Developer",
+							"host": [
+								"{{db-service}}"
+							],
+							"path": [
+								"roles",
+								"by-name"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Developer"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "RoleAssociation",
+			"item": [
+				{
+					"name": "GetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{db-service}}/role-association/get-all",
+							"host": [
+								"{{db-service}}"
+							],
+							"path": [
+								"role-association",
+								"get-all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\" : \"fa1529de-5f20-49a7-ad25-a494008dd322\",\r\n    \"active\" : true,\r\n    \"roleId\" : [\"63cb0bd880db2e670031703f\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{db-service}}/role-association/new-role-association",
+							"host": [
+								"{{db-service}}"
+							],
+							"path": [
+								"role-association",
+								"new-role-association"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"63cc104b94961c2ef9385b85\",\r\n    \"userId\": \"fd282131-d8aa-4819-b0c8-d9e0bfb1b75c\",\r\n    \"roleId\": [\r\n        \"63cb0bd880db2e670031703f\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{db-service}}/role-association/update-role-association",
+							"host": [
+								"{{db-service}}"
+							],
+							"path": [
+								"role-association",
+								"update-role-association"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Main Task",
+			"item": [
+				{
+					"name": "Assign Role",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \r\n        \"userId\": \"fd282131-d8aa-4819-b0c8-d9e0bfb1b75c\",\r\n        \"active\": true,\r\n        \"roleId\": [\r\n            \"63cd441dfeba663814ffbf6d\"\r\n        ]\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{main}}/main/associate-user-role",
+							"host": [
+								"{{main}}"
+							],
+							"path": [
+								"main",
+								"associate-user-role"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Membership by Role Name",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Roles by Membership id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{main}}/main/roles-by-membership-id?id=63cc0920e844df5c62a0e092",
+							"host": [
+								"{{main}}"
+							],
+							"path": [
+								"main",
+								"roles-by-membership-id"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "63cc0920e844df5c62a0e092"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Memberships",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "getRoles",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Resources",
+			"item": [
+				{
+					"name": "Resources GetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{db-service}}/resources/get-all",
+							"host": [
+								"{{db-service}}"
+							],
+							"path": [
+								"resources",
+								"get-all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "main",
+			"value": "http://localhost:8080",
+			"type": "string"
+		},
+		{
+			"key": "db-service",
+			"value": "http://localhost:8090",
+			"type": "string"
+		}
+	]
+}
